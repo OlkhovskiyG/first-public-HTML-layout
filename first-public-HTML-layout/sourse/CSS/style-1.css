@@ -12,10 +12,12 @@ body {
     border-radius: 19px;
 
 }
+
 .navbar-brand {
     color: #DA21A6;
     text-shadow: -1px 0px 17px rgba(218, 82, 149, 0.82);
 }
+
 .navbar-nav .nav-link.active {
     color: #DA21A6;
     text-shadow: -1px 0px 17px rgba(218, 82, 149, 0.82);
@@ -25,10 +27,12 @@ body {
     color: #DA21A6;
     text-shadow: -1px 0px 17px rgba(218, 82, 149, 0.82);
 }
+
 .navbar-nav {
     color: #DA21A6;
     text-shadow: -1px 0px 17px rgba(218, 82, 149, 0.82);
 }
+
 #main-background {
     background-color: #242121;
     width: 94em;
@@ -38,6 +42,7 @@ body {
     border-width: 1px;
     border-radius: 2em 2em 2em 2em;
     padding-bottom: 2em;
+    box-shadow: -14px 19px 10px 1px #000;
 }
 
 .top-background {
@@ -50,19 +55,23 @@ body {
     margin-top: 1em;
     margin-inline: 2em;
 }
+
 .slogan {
     color: white;
     text-align: space-between;
     text-shadow: -1px 0px 1px rgba(235, 184, 209, 0.82);
 }
+
 .info-for-brand {
     font-size: 0.9em;
     color: #f5e1ef;
     text-shadow: -1px 0px 1px rgba(255, 255, 255, 0.82);
 }
-.navbar-brand> img {
+
+.navbar-brand>img {
     width: 5em;
 }
+
 .botton-in-garage {
     text-align: left;
 }
@@ -75,6 +84,24 @@ body {
     border-width: 1px;
     border-radius: 1em 1em 1em 1em;
     padding: 0.5em;
-  
+}
 
+.info-card-main-pages {
+    padding-top: 2em;
+    margin: 0;
+}
+
+.card-text {
+    color: white;
+
+}
+
+.card-body {
+    background: linear-gradient(274deg, #000 0%, #585555 100%);
+}
+
+.card {
+    border: #DA21A6;
+    border-style: solid;
+    border-width: 1px;
 }
